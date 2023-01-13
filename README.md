@@ -48,7 +48,7 @@ npm install http-serve -g
 
 
 
-### 安装gitbook（文档doc使用）
+安装gitbook（文档doc使用）
 
 ```js
 // 全局安装
@@ -76,7 +76,7 @@ git push origin v0.0.1
 
 
 
-### 将项目提交到npm上
+## 将项目提交到npm上
 
 ```js
 npm adduser    // 1. 根据提示输入你的 username、password、email
@@ -87,7 +87,7 @@ npm publish .   //2. 发布你的项目到 npm.org
 
 
 
-### 升级代码并提交
+## 升级代码并提交
 
 ````js
 //1、新建dev分支并切换到dev
@@ -100,16 +100,19 @@ git checkout -b dev
 cache.clear()
 ```
 // 4、自测，运行下代码，看下效果
-
+// 5、提交dev代码到远程,运行如下代码
+git add .
+git commit -m "0.0.2"
+git push origin dev
+// 6、在package.json中再次确认版本号
+// 7、将dev合并到master,并提交到master到远程
+git checkout master 
+git merge dev 
+git push origin master
+// 8、创建tag并提交到远程
+git tag -a v0.0.2
+git push origin v0.0.2
+// 9、最后提交到npm
+npm publish .
 ````
-
-
-
- 3、修改文档 在doc/use/README.md中增加如下 
-
-## 清空
-
-```js
-cache.clear()
-```
 
