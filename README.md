@@ -8,6 +8,7 @@
 ## 安装下载
 - 下载地址：https://github.com/pfsjdsn/fast-cache-pf/releases
 - `npm i fast-cache-pf`
+- nmpm 地址： `https://www.npmjs.com/package/fast-cache-pf`
 ## 快速使用
 
 简单接入的文档
