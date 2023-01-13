@@ -89,11 +89,27 @@ npm publish .   //2. 发布你的项目到 npm.org
 
 ### 升级代码并提交
 
-```js
-// 新建dev分支并切换到dev
+````js
+//1、新建dev分支并切换到dev
 git checkout -b dev
-
+//2、修改版本  从0.0.1改成0.0.2 
+"version": "0.0.2",
+//3、修改文档 在doc/use/README.md中增加如下 
+## 清空
+```js
+cache.clear()
 ```
+// 4、自测，运行下代码，看下效果
+
+````
 
 
+
+ 3、修改文档 在doc/use/README.md中增加如下 
+
+## 清空
+
+```js
+cache.clear()
+```
 

@@ -19,3 +19,8 @@ cache.set('a', 100)
 cache.get('a')
 ```
 
+## 清空
+```js
+cache.clear()
+```
+
