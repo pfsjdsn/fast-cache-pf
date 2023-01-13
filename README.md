@@ -11,8 +11,8 @@
 
 简单接入的文档
 
-- 使用文档
-- 二次开发文档
+- 使用文档 (./doc/use/README.md)
+- 二次开发文档 (./doc/dev/README.md)
 
 ## 交流 & 提问
 
@@ -45,3 +45,24 @@ npm install http-serve -g
 
 
 
+### 安装gitbook（文档doc使用）
+
+```js
+// 全局安装
+1、npm install -g gitbook-cli 
+2、生成SUMMARY.MD文件
+内容如下：
+# Summary
+
+* [项目介绍](README.md)
+* [使用文档](doc/use/README.md)
+    * [使用1](doc/use/use1.md)
+    * [使用2](doc/use/use2.md)
+* [二次开发](doc/dev/README.md)
+    * [开发1](doc/dev/dev1/dev1.md)
+    * [开发2](doc/dev/dev2/dev2.md)
+// 初始化
+gitbook init 
+// 构建 
+gitbook build 
+```

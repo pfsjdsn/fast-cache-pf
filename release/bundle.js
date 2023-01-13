@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("alert('src/index.js')\n\n//# sourceURL=webpack://fast-cache-pf/./src/index.js?");
+eval("class FastCache {\r\n    constructor() {\r\n        this.list = {}\r\n    }\r\n    set (key, value) {\r\n        this.list[key] = value\r\n    }\r\n    get (key) {\r\n        return this.list[key]\r\n    }\r\n}\r\n\r\nwindow.FastCache = FastCache\n\n//# sourceURL=webpack://fast-cache-pf/./src/index.js?");
 
 /***/ })
 
