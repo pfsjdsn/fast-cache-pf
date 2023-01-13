@@ -9,6 +9,7 @@
 - 下载地址：https://github.com/pfsjdsn/fast-cache-pf/releases
 - `npm i fast-cache-pf`
 - nmpm 地址： `https://www.npmjs.com/package/fast-cache-pf`
+- CDN http://unpkg.com/fast-cache-pf/release/bundle.js
 ## 快速使用
 
 简单接入的文档
@@ -83,4 +84,16 @@ npm adduser    // 1. 根据提示输入你的 username、password、email
 npm publish .   //2. 发布你的项目到 npm.org
  
 ```
+
+
+
+### 升级代码并提交
+
+```js
+// 新建dev分支并切换到dev
+git checkout -b dev
+
+```
+
+
 
