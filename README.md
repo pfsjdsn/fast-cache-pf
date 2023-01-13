@@ -6,7 +6,8 @@
 特色（推广的一些亮点）
 
 ## 安装下载
-
+- 下载地址：https://github.com/pfsjdsn/fast-cache-pf/releases
+- `npm i fast-cache-pf`
 ## 快速使用
 
 简单接入的文档
@@ -65,4 +66,20 @@ npm install http-serve -g
 gitbook init 
 // 构建 
 gitbook build 
+//git 创建tag并提交（tag作用：创建tag的作用：对某个特定的commit添加标记）
+git tag -a 'v0.0.1' -m 'first commit'
+git push origin v0.0.1
+
 ```
+
+
+
+### 将项目提交到npm上
+
+```js
+npm adduser    // 1. 根据提示输入你的 username、password、email
+ 
+npm publish .   //2. 发布你的项目到 npm.org
+ 
+```
+
