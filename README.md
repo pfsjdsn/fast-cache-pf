@@ -1,4 +1,5 @@
 # fast-cache-pf
+
 短小精悍的前端缓存工具，防止内存“侧漏”
 
 ## 简介
@@ -6,10 +7,12 @@
 特色（推广的一些亮点）
 
 ## 安装下载
+
 - 下载地址：https://github.com/pfsjdsn/fast-cache-pf/releases
 - `npm i fast-cache-pf`
 - nmpm 地址： `https://www.npmjs.com/package/fast-cache-pf`
 - CDN http://unpkg.com/fast-cache-pf/release/bundle.js
+
 ## 快速使用
 
 简单接入的文档
@@ -110,7 +113,7 @@ git checkout master
 git merge dev 
 git push origin master
 // 8、创建tag并提交到远程
-git tag -a v0.0.2
+git tag -a v0.0.2 -m "0.0.2"
 git push origin v0.0.2
 // 9、最后提交到npm
 npm publish .
