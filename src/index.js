@@ -1,1 +1,1 @@
-alert('fast-cache')
+alert('src/index.js')

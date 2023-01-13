@@ -4,7 +4,9 @@
   "description": "\t短小精悍的前端缓存工具，防止内存“侧漏”",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8880"
   },
   "repository": {
     "type": "git",
