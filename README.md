@@ -1,6 +1,10 @@
 # fast-cache-pf
 
-短小精悍的前端缓存工具，防止内存“侧漏”
+● 包名：fast-cache-pf。
+● 使用：打开npm官网，搜索包名即可。
+
+● 项目介绍：短小精悍的前端缓存工具，防止内存“侧漏”。其中也包括了开源项目搭建及代码提交流程。
+● 技术栈：javascript +  node.js + webpack。
 
 ## 简介
 
@@ -103,10 +107,8 @@ git checkout -b dev
 //2、修改版本  从0.0.1改成0.0.2 
 "version": "0.0.2",
 //3、修改文档 在doc/use/README.md中增加如下 
-## 清空
-```js
+// 清空
 cache.clear()
-```
 // 4、自测，运行下代码，看下效果
 // 5、提交dev代码到远程,运行如下代码
 git add .
@@ -122,5 +124,5 @@ git tag -a v0.0.2 -m "0.0.2"
 git push origin v0.0.2
 // 9、最后提交到npm
 npm publish .
-````
 
+```
