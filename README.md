@@ -4,7 +4,7 @@
 ● 使用：打开npm官网，搜索包名即可。
 
 ● 项目介绍：短小精悍的前端缓存工具，防止内存“侧漏”。其中也包括了开源项目搭建及代码提交流程。
-● 技术栈：javascript +  node.js + webpack。
+● 技术栈：JavaScript  +  Node.js+ Webpack。
 
 ## 简介
 
